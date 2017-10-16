@@ -12,10 +12,14 @@
 		A217C27A1F7C83D900F1D3BD /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */; };
 		A217C27C1F7C846B00F1D3BD /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C27B1F7C846B00F1D3BD /* nanopb.framework */; };
 		A217C27E1F7C84B300F1D3BD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A217C27D1F7C84B300F1D3BD /* iAd.framework */; };
+		A2B79BA41F85DE4A009A0FBA /* climb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2B79BA31F85DE4A009A0FBA /* climb.jpg */; };
+		A2B79BAA1F85EE55009A0FBA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B79BA91F85EE55009A0FBA /* LoginViewController.swift */; };
 		A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */; };
 		A2BC22441F79D7DB00CBDE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BC22431F79D7DB00CBDE3B /* ViewController.swift */; };
 		A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22451F79D7DB00CBDE3B /* Main.storyboard */; };
 		A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */; };
+		A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB88031F86CB8D00735F25 /* SignupViewController.swift */; };
+		A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,15 +28,18 @@
 		A217C2791F7C83D900F1D3BD /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../Library/Developer/Xcode/DerivedData/YesReady-euenwgnluwuyuidcelkulbmtmaau/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
 		A217C27B1F7C846B00F1D3BD /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "../../Library/Developer/Xcode/DerivedData/YesReady-euenwgnluwuyuidcelkulbmtmaau/Build/Products/Debug-iphonesimulator/nanopb/nanopb.framework"; sourceTree = "<group>"; };
 		A217C27D1F7C84B300F1D3BD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		A2B79BA31F85DE4A009A0FBA /* climb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = climb.jpg; path = ../../../Downloads/climb.jpg; sourceTree = "<group>"; };
+		A2B79BA91F85EE55009A0FBA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A2BC223E1F79D7DB00CBDE3B /* YesReady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesReady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2BC22431F79D7DB00CBDE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2BC22461F79D7DB00CBDE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2BC224D1F79D7DB00CBDE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CB88031F86CB8D00735F25 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		AEE195BDE70D998F2A6A73D2 /* Pods-YesReady.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.debug.xcconfig"; sourceTree = "<group>"; };
 		B4EBEB60EAF929631F218FBF /* Pods-YesReady.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesReady.release.xcconfig"; path = "Pods/Target Support Files/Pods-YesReady/Pods-YesReady.release.xcconfig"; sourceTree = "<group>"; };
-		ED2124ED1F833B3C0018348A /* Screen Shot 2017-10-02 at 11.27.10 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-10-02 at 11.27.10 PM.png"; path = "../../../../../Desktop/Screen Shot 2017-10-02 at 11.27.10 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +90,14 @@
 		A2BC22401F79D7DB00CBDE3B /* YesReady */ = {
 			isa = PBXGroup;
 			children = (
-				ED2124EA1F8337E70018348A /* image */,
 				A2BC22411F79D7DB00CBDE3B /* AppDelegate.swift */,
 				A2BC22431F79D7DB00CBDE3B /* ViewController.swift */,
+				A2B79BA91F85EE55009A0FBA /* LoginViewController.swift */,
+				A2CB88031F86CB8D00735F25 /* SignupViewController.swift */,
 				A2BC22451F79D7DB00CBDE3B /* Main.storyboard */,
+				A2CB88051F86EBCA00735F25 /* ForgotPasswordViewController.swift */,
 				A2BC22481F79D7DB00CBDE3B /* Assets.xcassets */,
+				A2B79BA31F85DE4A009A0FBA /* climb.jpg */,
 				A2BC224D1F79D7DB00CBDE3B /* Info.plist */,
 			);
 			path = YesReady;
@@ -100,14 +110,6 @@
 				B4EBEB60EAF929631F218FBF /* Pods-YesReady.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		ED2124EA1F8337E70018348A /* image */ = {
-			isa = PBXGroup;
-			children = (
-				ED2124ED1F833B3C0018348A /* Screen Shot 2017-10-02 at 11.27.10 PM.png */,
-			);
-			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +178,7 @@
 				A217C2781F7C7FC300F1D3BD /* GoogleService-Info.plist in Resources */,
 				A2BC22491F79D7DB00CBDE3B /* Assets.xcassets in Resources */,
 				A2BC22471F79D7DB00CBDE3B /* Main.storyboard in Resources */,
+				A2B79BA41F85DE4A009A0FBA /* climb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B79BAA1F85EE55009A0FBA /* LoginViewController.swift in Sources */,
+				A2CB88061F86EBCA00735F25 /* ForgotPasswordViewController.swift in Sources */,
 				A2BC22441F79D7DB00CBDE3B /* ViewController.swift in Sources */,
+				A2CB88041F86CB8D00735F25 /* SignupViewController.swift in Sources */,
 				A2BC22421F79D7DB00CBDE3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HealthCare.YesReady;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -382,7 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HealthCare.YesReady;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

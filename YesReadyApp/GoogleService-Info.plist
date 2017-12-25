@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>402368660468-llmip7dsuh9tl8bimgcarrghn10c366r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.402368660468-llmip7dsuh9tl8bimgcarrghn10c366r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBfaV1ZJt-RXgtHJ7ra7TYzSeQ1T4DCTAU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>402368660468</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cunycode.YesReadyApp</string>
+	<key>PROJECT_ID</key>
+	<string>yesreadydb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>yesreadydb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:402368660468:ios:99cf1af0f9dc67a7</string>
+	<key>DATABASE_URL</key>
+	<string>https://yesreadydb.firebaseio.com</string>
+</dict>
+</plist>

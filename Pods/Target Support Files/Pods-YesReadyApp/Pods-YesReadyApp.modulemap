@@ -1,0 +1,6 @@
+framework module Pods_YesReadyApp {
+  umbrella header "Pods-YesReadyApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

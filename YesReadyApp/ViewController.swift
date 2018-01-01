@@ -25,7 +25,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         }
         
         @IBAction func signupButton(_ sender: Any) {
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "signup")as! SignupViewController
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "signup")as! SignupViewController 
             self.present(vc, animated: true, completion: nil)
         }
         

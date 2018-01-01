@@ -42,10 +42,9 @@ class SignupViewController: UIViewController, UITextFieldDelegate{
 
 
                 if error == nil {
-                    print("You have successfully signed up")
-
-//                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "accountinfo")as! UpdateAccountViewController
-//                    self.present(vc, animated: true, completion: nil)
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "profileinfo")as! UpdateAccountViewController
+                    self.present(vc, animated: true, completion: nil)
+                 
                 }
             else {
                     let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
